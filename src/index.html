@@ -9,58 +9,70 @@
     <link rel="stylesheet" href="./style.css">
   </head>
   <body>
-    <form action="https://mate-academy-form-lesson.herokuapp.com/create-application"
-          method="POST"
-          onsubmit="onSubmit()">
+    <form
+      action="https://mate-academy-form-lesson.herokuapp.com/create-application"
+      method="POST"
+      onsubmit="onSubmit()"
+    >
       <fieldset>
         <legend>
           Personal information
         </legend>
         <div>
           <label for="surname">
-                 Surname:
-            <input type="text"
-                   id="surname"
-                   name="surname">
+            Surname:
+            <input
+              type="text"
+              id="surname"
+              name="surname"
+            >
           </label>
         </div>
 
         <div class="field_distance">
           <label for="name">
-                 Name:
-            <input type="text"
-                   id="name"
-                   name="name">
+            Name:
+            <input
+              type="text"
+              id="name"
+              name="name"
+            >
           </label>
         </div>
         <div class="field_distance">
           <label for="age">
-                 How old are You?
-            <input type="number"
-                   id="age"
-                   name="age"
-                   value="12"
-                   min="1"
-                   max="120">
+            How old are You?
+            <input
+              type="number"
+              id="age"
+              name="age"
+              value="12"
+              min="1"
+              max="120"
+            >
           </label>
         </div>
 
         <div class="field_distance">
           <label for="birthday">
-                 Full date of birth:
-            <input type="date"
-                   id="birthday"
-                   name="birthday"
-                   placeholder="dd.mm.yyyy">
+            Full date of birth:
+            <input
+              type="date"
+              id="birthday"
+              name="birthday"
+              placeholder="dd.mm.yyyy"
+            >
           </label>
         </div>
 
         <div class="field_distance">
           <label for="acception">
-                 I accept the term of the agreement
-            <input type="checkbox"
-                   id="acception"
-                   name="acception">
+            I accept the term of the agreement
+            <input
+              type="checkbox"
+              id="acception"
+              name="acception"
+            >
           </label>
         </div>
       </fieldset>
@@ -71,23 +83,27 @@
         <div>
           <label for="email">
             E-mail:
-            <input type="email"
-                   id="email"
-                   name="email"
-                   placeholder="email@example.com"
-                   required>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="email@example.com"
+              required
+            >
           </label>
         </div>
 
         <div class="field_distance">
           <label for="password">
             Password:
-            <input type="password"
-                   id="password"
-                   name="password"
-                   minlength="6"
-                   maxlength="30"
-                   required>
+            <input
+              type="password"
+              id="password"
+              name="password"
+              minlength="6"
+              maxlength="30"
+              required
+            >
           </label>
         </div>
       </fieldset>
@@ -96,47 +112,57 @@
           An interesting fact about you!
         </legend>
         <div>
-             Do you love cats?
-          <input type="radio"
-                 id="yes"
-                 name="choose">
+          Do you love cats?
+          <input
+            type="radio"
+            id="yes"
+            name="choose"
+          >
           <label for="yes">
-                 Yes
+            Yes
           </label>
-          <input type="radio"
-                  id="no"
-                  name="choose">
+          <input
+            type="radio"
+            id="no"
+            name="choose"
+          >
           <label for="no">
-                 No
+            No
           </label>
         </div>
 
         <div class="field_distance">
           <label for="color">
-                 What is your favorite color?
-            <input type="color"
-                   id="color"
-                   name="Wwat is you favorite color"
-                   value="#000000">
+            What is your favorite color?
+            <input
+              type="color"
+              id="color"
+              name="Wwat is you favorite color"
+              value="#000000"
+            >
           </label>
         </div>
 
         <div class="field_distance">
           <label for="inbed">
-                 What time do you go to bed?
-            <input type="time"
-                   id="inbed"
-                   name="inbed"
-                   placeholder="--:--:-- -- ">
+            What time do you go to bed?
+            <input
+              type="time"
+              id="inbed"
+              name="inbed"
+              placeholder="--:--:-- -- "
+            >
           </label>
         </div>
 
         <div class="field_distance">
           <label for="cars">
-                 What are your favorite brand of cars?
-            <select multiple size="4"
-                    id="cars"
-                    name="cars">>
+            What are your favorite brand of cars?
+            <select
+              multiple size="4"
+              id="cars"
+              name="cars"
+            >
               <option>BMW</option>
               <option>Audi</option>
               <option>Lada</option>
@@ -148,13 +174,15 @@
         <div class="field_distance">
           <label for="range">
             How do you rate our work?
-            <input type="range"
-                   id="range"
-                   name="range"
-                   min="0"
-                   max="100"
-                   value="0"
-                   step="1">
+            <input
+              type="range"
+              id="range"
+              name="range"
+              min="0"
+              max="100"
+              value="0"
+              step="1"
+            >
           </label>
         </div>
       </fieldset>
@@ -164,9 +192,8 @@
         </legend>
         <div>
           <label for="comment">
-                 Comments:
-            <textarea id="comment"
-                      name="comments">
+            Comments:
+            <textarea id="comment" name="comments">
             </textarea>
           </label>
         </div>
@@ -174,8 +201,7 @@
         <div class="field_distance">
           <label for="recommendation">
                  Would you recommend us?
-            <select id="recommendation"
-                    name="recommendation">
+            <select id="recommendation" name="recommendation">
               <option value="yes">
                 yes
               </option>
