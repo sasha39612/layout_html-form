@@ -1,0 +1,1 @@
+{"version":3,"sources":["style.css"],"names":[],"mappings":"AAAA,iBACE,eACF,CAEA,gBACE,eACF","file":"style.29a99798.css","sourceRoot":"../src","sourcesContent":[".block__distance {\n  margin-top: 20px;\n}\n\n.field_distance {\n  margin-top: 10px;\n}\n"]}
